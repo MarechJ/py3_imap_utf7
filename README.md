@@ -17,4 +17,4 @@ assert s == decode(encode(s))
 
 Although control characters are usually rejected by IMAP servers.
 
-*I will add some unittests when I find the time, finish the porting properly and maybe switch to an in-memory implementations for better performance*
+*I will add some unittests when I find the time, finish the porting properly and maybe switch to an in-place implementation for better performance*
